@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #C5A059;
+    --gold-light: #DFCA97;
+    --gold-dark: #987834;
+    --sand-bg: #FBF9F5;
+    --sand-surface: #F3EFE6;
+    --charcoal: #121316;
+    --charcoal-card: #1A1C20;
+    --charcoal-border: #2A2D35;
+  }
+
+  body {
+    background-color: #0D0E11;
+    color: #F3EFE6;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: "Cinzel", "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0D0E11;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2D35;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}

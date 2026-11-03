@@ -1,0 +1,6 @@
+{
+  "name": "Dussel Hotels - Luxury Hotel & Suites in Owerri",
+  "description": "Dussel Hotels is an upscale 5-star hotel in Owerri, Imo State on MCC Uratta Road. Featuring air-conditioned suites, 24/7 continuous power, Olympic swimming pool, authentic African restaurant, and secure parking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
